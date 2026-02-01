@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-video-maker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "n8n community node for creating video slideshows from images and audio using FFmpeg",
   "keywords": [
     "n8n",
@@ -71,12 +71,22 @@
         "name": "videoMaker",
         "displayName": "Video Maker",
         "icon": "file:videomaker.svg",
-        "group": ["transform", "media"],
+        "group": [
+          "transform",
+          "media"
+        ],
         "description": "Creates video slideshows from images and audio using FFmpeg",
         "defaultVersion": 1,
         "codex": {
-          "alias": ["VideoMaker", "slideshow", "ffmpeg"],
-          "categories": ["Media", "Video"]
+          "alias": [
+            "VideoMaker",
+            "slideshow",
+            "ffmpeg"
+          ],
+          "categories": [
+            "Media",
+            "Video"
+          ]
         }
       }
     }
