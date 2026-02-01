@@ -1,0 +1,36 @@
+{
+  "node": "n8n-nodes.video-maker",
+  "nodeVersion": "1.0.0",
+  "codexVersion": "1.0.0",
+  "categories": [
+    "Media",
+    "Video"
+  ],
+  "resources": {
+    "primaryDocumentation": [
+      {
+        "url": "https://github.com/yourusername/n8n-nodes-video-maker/blob/main/README.md"
+      }
+    ],
+    "credentialDocumentation": [],
+    "supplementalDocumentation": [
+      {
+        "url": "https://ffmpeg.org/documentation.html"
+      }
+    ]
+  },
+  "alias": [
+    "VideoMaker",
+    "Slideshow",
+    "FFmpeg",
+    "Image to Video",
+    "Photo Video",
+    "Video Creation"
+  ],
+  "contributors": [
+    {
+      "name": "Your Name",
+      "email": "your.email@example.com"
+    }
+  ]
+}

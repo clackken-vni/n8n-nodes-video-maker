@@ -1,0 +1,43 @@
+# Source files (only dist is published)
+src/
+nodes/
+lib/
+test/
+
+# Configuration
+tsconfig.json
+tsconfig.build.json
+.eslintrc.js
+.prettierrc
+.jestrc.js
+gulpfile.js
+
+# Development
+*.md
+!README.md
+.gitignore
+.gitattributes
+.env*
+.editorconfig
+.travis.yml
+.appveyor.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary
+tmp/
+temp/
+*.log
+npm-debug.log*
