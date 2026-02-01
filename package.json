@@ -1,11 +1,12 @@
 {
   "name": "n8n-nodes-video-maker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "n8n community node for creating video slideshows from images and audio using FFmpeg",
   "keywords": [
     "n8n",
     "n8n-community",
     "n8n-node",
+    "n8n-community-node-package",
     "video",
     "slideshow",
     "ffmpeg",
@@ -29,6 +30,9 @@
     "node": ">=18.0.0"
   },
   "main": "index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc && gulp",
     "build:prod": "tsc && gulp && npm run test",
@@ -64,30 +68,9 @@
     "n8n": ">=1.0.0"
   },
   "n8n": {
-    "n8nNodesApi": {
-      "VideoMaker": {
-        "className": "VideoMaker",
-        "name": "videoMaker",
-        "displayName": "Video Maker",
-        "icon": "file:videomaker.svg",
-        "group": [
-          "transform",
-          "media"
-        ],
-        "description": "Creates video slideshows from images and audio using FFmpeg",
-        "defaultVersion": 1,
-        "codex": {
-          "alias": [
-            "VideoMaker",
-            "slideshow",
-            "ffmpeg"
-          ],
-          "categories": [
-            "Media",
-            "Video"
-          ]
-        }
-      }
-    }
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/VideoMaker/VideoMaker.node.js"
+    ]
   }
 }

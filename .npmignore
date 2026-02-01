@@ -1,10 +1,9 @@
-# Ignore source TypeScript files
+# Source TypeScript files (already compiled to dist/)
 *.ts
-!nodes/**/*.ts
-!lib/**/*.ts
+!dist/**/*.ts
 
-# Configuration
-.tsconfig.json
+# Configuration files
+tsconfig.json
 tsconfig.build.json
 .eslintrc.js
 .prettierrc
@@ -18,8 +17,6 @@ gulpfile.js
 .gitattributes
 .env*
 .editorconfig
-.travis.yml
-.appveyor.yml
 
 # IDE
 .vscode/
@@ -43,5 +40,4 @@ npm-debug.log*
 
 # Build artifacts to exclude
 build/
-dist/
 n8n-nodes-video-maker.zip
