@@ -28,8 +28,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
   "scripts": {
     "build": "tsc && gulp",
     "build:prod": "tsc && gulp && npm run test",
