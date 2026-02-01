@@ -20,7 +20,7 @@ function copyLib() {
 
 function copyPackage() {
   return gulp
-    .src(['package.json', 'README.md', 'LICENSE'])
+    .src(['package.json', 'README.md', 'LICENSE', 'index.ts'])
     .pipe(gulp.dest(path.join(__dirname, 'build')));
 }
 
