@@ -1,11 +1,10 @@
-# Source files (only dist is published)
-src/
-nodes/
-lib/
-test/
+# Ignore source TypeScript files
+*.ts
+!nodes/**/*.ts
+!lib/**/*.ts
 
 # Configuration
-tsconfig.json
+.tsconfig.json
 tsconfig.build.json
 .eslintrc.js
 .prettierrc
@@ -41,3 +40,8 @@ tmp/
 temp/
 *.log
 npm-debug.log*
+
+# Build artifacts to exclude
+build/
+dist/
+n8n-nodes-video-maker.zip
