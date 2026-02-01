@@ -6,6 +6,7 @@
     "Media",
     "Video"
   ],
+  "icon": "file:nodes/VideoMaker/VideoMaker.node.svg",
   "resources": {
     "primaryDocumentation": [
       {
